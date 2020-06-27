@@ -1,10 +1,10 @@
 package com.example.recyclerview
 
-class Platillo(nombre:String, precio:Double, rating:Double, foto:Int) {
+class Platillo(nombre: String, precio: Double, rating: Float, foto: Int) {
 
     var nombre = ""
     var precio = 0.0
-    var rating = 0.0
+    var rating = 0.0F
     var foto = 0
 
     init {
